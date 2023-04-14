@@ -9,22 +9,27 @@ Let's write a `Stack` class. To do this, use the following framework:
 ```ruby
 class Stack
   def initialize
+    @stack = []
     # create ivar to store stack here!
   end
 
   def push(el)
+    @stack << el
     # adds an element to the stack
   end
 
   def pop
+    @stack.pop
     # removes one element from the stack
   end
 
   def peek
+    @stack[0]
     # returns, but doesn't remove, the top element in the stack
   end
 end
-```
+
+
 
 To test that your code works, create a new instance of the `Stack` class, and
 play
