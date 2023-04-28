@@ -10,7 +10,7 @@ describe Dessert do
 
   describe "#initialize" do
     it "sets a type"
-
+      expect double
     it "sets a quantity"
 
     it "starts ingredients as an empty array"
